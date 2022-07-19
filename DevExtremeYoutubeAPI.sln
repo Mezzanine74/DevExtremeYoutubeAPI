@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevExtremeYoutubeAPI", "Dev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevExtremeYoutubeAPI.Tests", "DevExtremeYoutubeAPI.Tests\DevExtremeYoutubeAPI.Tests.csproj", "{35CF1054-E92C-4336-8163-36C5C8277B9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevExtremeYoutubeModel", "DevExtremeYoutubeModel\DevExtremeYoutubeModel.csproj", "{BE429A15-75BC-4C22-BA10-5510BB0BFA25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{35CF1054-E92C-4336-8163-36C5C8277B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35CF1054-E92C-4336-8163-36C5C8277B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35CF1054-E92C-4336-8163-36C5C8277B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE429A15-75BC-4C22-BA10-5510BB0BFA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE429A15-75BC-4C22-BA10-5510BB0BFA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE429A15-75BC-4C22-BA10-5510BB0BFA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE429A15-75BC-4C22-BA10-5510BB0BFA25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
