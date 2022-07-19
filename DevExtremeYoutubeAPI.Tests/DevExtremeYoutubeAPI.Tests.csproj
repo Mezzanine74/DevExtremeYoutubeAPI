@@ -120,6 +120,10 @@
       <Project>{A6AA19F0-717E-45D8-9D80-7520ADFD28D4}</Project>
       <Name>DevExtremeYoutubeAPI</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DevExtremeYoutubeDataAccess\DevExtremeYoutubeDataAccess.csproj">
+      <Project>{44A77014-206A-4C6C-BEA1-62E59E144664}</Project>
+      <Name>DevExtremeYoutubeDataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DevExtremeYoutubeModel\DevExtremeYoutubeModel.csproj">
       <Project>{be429a15-75bc-4c22-ba10-5510bb0bfa25}</Project>
       <Name>DevExtremeYoutubeModel</Name>
