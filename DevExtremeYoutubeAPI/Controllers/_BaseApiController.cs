@@ -5,7 +5,6 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 using System.Web.Http.Cors;
-using System.Web.Mvc;
 
 namespace DevExtremeYoutubeAPI.Controllers
 {
@@ -35,11 +34,13 @@ namespace DevExtremeYoutubeAPI.Controllers
         }
 
         // POST api/<controller>
+        [HttpPost]
         public TModel Add(TModel model)
         {
             return Dal.Add(model);
         }
 
+        [HttpPut]
         public TModel Update(TModel model)
         {
             if (Dal.Update(model) > 0)
@@ -51,6 +52,7 @@ namespace DevExtremeYoutubeAPI.Controllers
 
         }
 
+        [HttpPost]
         public int Delete(int id)
         {
             return Dal.Delete(Dal.GetByPrimaryKey(id));
