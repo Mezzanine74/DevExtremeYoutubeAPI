@@ -60,6 +60,7 @@
     <Compile Include="DAL\RegionDal.cs" />
     <Compile Include="DAL\ShipperDal.cs" />
     <Compile Include="DAL\SupplierDal.cs" />
+    <Compile Include="DAL\UserDal.cs" />
     <Compile Include="DAL\TerritoryDal.cs" />
     <Compile Include="DAL\CategoryDal.cs" />
     <Compile Include="IBaseDataAccess.cs" />

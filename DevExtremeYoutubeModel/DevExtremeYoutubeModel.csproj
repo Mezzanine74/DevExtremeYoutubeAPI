@@ -110,6 +110,9 @@
     <Compile Include="Model\Territory.cs">
       <DependentUpon>ModelDevExtremeYoutube.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\User.cs">
+      <DependentUpon>ModelDevExtremeYoutube.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
