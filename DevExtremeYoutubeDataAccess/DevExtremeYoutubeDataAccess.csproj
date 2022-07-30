@@ -49,6 +49,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDataAccess.cs" />
+    <Compile Include="DAL\CustomerDal.cs" />
+    <Compile Include="DAL\CustomerDemographicDal.cs" />
+    <Compile Include="DAL\EmployeeDal.cs" />
+    <Compile Include="DAL\EmployeeFileDal.cs" />
+    <Compile Include="DAL\OrderDal.cs" />
+    <Compile Include="DAL\OrderDetailDal.cs" />
+    <Compile Include="DAL\PeopleBicycleDal.cs" />
+    <Compile Include="DAL\ProductDal.cs" />
+    <Compile Include="DAL\RegionDal.cs" />
+    <Compile Include="DAL\ShipperDal.cs" />
+    <Compile Include="DAL\SupplierDal.cs" />
+    <Compile Include="DAL\TerritoryDal.cs" />
     <Compile Include="DAL\CategoryDal.cs" />
     <Compile Include="IBaseDataAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
